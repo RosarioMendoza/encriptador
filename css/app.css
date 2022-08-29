@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Poppins:wght@400;700&display=swap');
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0A3871;
+    opacity: 1; /* Firefox */
+    font-size: 20px;
+}
+
+textarea{
+    background-color: #E5E5E5 !important;
+    border: solid 2px #05315c !important;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(247,198,0,1);
+    -moz-box-shadow: 0px 0px 11px 3px rgba(247,198,0,1);
+    box-shadow: 0px 0px 11px 3px rgba(247,198,0,1);
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+
+.caja-botones{
+    margin-top: 45px;
+}
